@@ -1,0 +1,56 @@
+.navbar-brand {
+  font-weight: 600;
+}
+.navbar-nav {
+  font-weight: 500;
+  color: black;
+}
+
+.navbar-brand {
+  color: var(--clr-dark) !important;
+}
+
+.main-header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--clr-dark);
+  margin-top: -50px;
+}
+@media (min-width: 576px) {
+  .main-header {
+    font-size: 4rem;
+  }
+}
+
+.profil {
+  width: 100px;
+  height: auto;
+  display: flex;
+}
+
+.text-content {
+  letter-spacing: 0.025rem;
+  font-size: 0.875rem;
+  color: black;
+}
+
+.myPhoto {
+  object-fit: cover;
+  width: 300px;
+  margin-top: 25px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.section-header {
+  font-weight: bold;
+  color: var(--clr-dark);
+  font-size: 40px;
+}
+
+section {
+  scroll-margin-top: 4rem;
+}
