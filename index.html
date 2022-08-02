@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <link rel="stylesheet" href="../bootstrap.css" />
-    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <script src=”https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js”></script>
     <link rel="stylesheet" href="style.css" />
     <title>Naufal Pratama</title>
@@ -14,18 +17,19 @@
   <body data-bs-spy="scroll" data-bs-target="#navbar">
     <!-- Header -->
     <section class="head">
-        <nav id="navbar" class="navbar navbar-expand-lg bg-warning fixed-top">
+        <nav id="navbar" class="text-white navbar navbar-expand-lg fixed-top pt-3 pb-3 animate__animated animate__slideInDown" style="background-color: #383838;">
             <div class="container">
               <a class="navbar-brand" href="#">Naufal Pratama</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                  <a class="nav-link" href="#project">Project</a>
-                  <a class="nav-link" href="#preset">Preset LR</a>
-                  <a class="nav-link" href="#contact">Contact</a>
+                  <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link text-white" href="#project">Project</a>
+                  <a class="nav-link text-white" href="#preset">Preset LR</a>
+                  <a class="nav-link text-white" href="#video">Video</a>
+                  <a class="nav-link text-white" href="#contact">Contact</a>
                 </div>
               </div>
             </div>
@@ -39,17 +43,16 @@
         <div class="row align-items-center g-5 g-lg-0">
           <!-- Text -->
           <div class="col-lg-7 order-lg-1 order-2 wlcm ps-4 pt-3">
-            <h1 class="main-header">Welcome! I Am <br /><span class="text-warning">Naufal Pratama</span></h1>
-            <p class="text-content">
-              Umur saya 19 tahun, tempat tinggal di Semarang dan kuliah <br />
-              di Universitas Negeri Semarang 🎓
+            <h1 class="main-header animate__animated animate__slideInUp">Welcome! I Am <br /><span style="color: #066163;">Naufal Pratama</span></h1>
+            <p class="text-content animate__animated animate__backInDown" style="font-size: 20px;">
+              Umur saya 19 tahun, saya lahir dan tinggal di Kota Semarang dan menempuh pendidikan di Universitas Negeri Semarang 🎓
             </p>
-            <button type="button" class="btn btn-warning"> <a href="#contact" class="nav-link">Contact</a> </button>
+            <button type="button" style="background-color: #066163; --bs-btn-padding-y: .5rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1rem;" class="btn text-white animate__animated animate__slideInDown"> <a href="#contact" class="nav-link">Contact</a> </button>
           </div>
 
           <!-- foto Profil -->
           <div class="col-lg-5 order-lg-2 order-1 text-center">
-            <img src="./img/1.jpg" alt="Naufal" class="myPhoto" />
+            <img src="./img/aaaa.jpeg" alt="Naufal" class="myPhoto animate__animated animate__bounceInUp" />
           </div>
         </div>
       </div>
@@ -58,6 +61,7 @@
     <!-- Home -->
 
     <!-- Project -->
+    <hr class="container">
     <section class="project" id="project">
       <div class="container">
         <h2 class="my-5 section-header text-center">Project</h2>
@@ -74,8 +78,8 @@
                 <p class="card-text text-content">Aplikasi To Do List sederhana pake banget</p>
               </div>
               <div class="card-footer">
-                <a href="https://ToDoList.naufal-darmada1.repl.co" class="btn btn-warning">View</a>
-                <a href="https://github.com/naufalpratam4/To-Do-List" class="btn btn-secondary">Github</a>
+                <a href="https://ToDoList.naufal-darmada1.repl.co" class="btn text-white" style="background-color: #066163;" target="_blank">View</a>
+                <a href="https://github.com/naufalpratam4/To-Do-List" class="btn text-white" style="background-color: #CDBE78;" target="_blank">Github</a>
               </div>
             </div>
           </div>
@@ -92,8 +96,8 @@
                 <p class="card-text text-content">Web film pake react js anjaey</p>
               </div>
               <div class="card-footer">
-                <a href="" id="viewFilm" class="btn btn-warning">View</a>
-                <a href="#" class="btn btn-secondary">Github</a>
+                <a href="" id="viewFilm" class="btn text-white" style="background-color: #066163;">View</a>
+                <a href="" id="viewFilm2" class="btn text-white" style="background-color: #CDBE78;">Github</a>
               </div>
             </div>
           </div>
@@ -110,8 +114,8 @@
                 <p class="card-text text-content">Yaudah ini web nya</p>
               </div>
               <div class="card-footer">
-                <a href="#home" class="btn btn-warning">View</a>
-                <a href="#" class="btn btn-secondary">Github</a>
+                <a href="#home" class="btn text-white" style="background-color: #066163;">View</a>
+                <a href="https://github.com/naufalpratam4/Portfolio" class="btn text-white" style="background-color: #CDBE78;">Github</a>
               </div>
             </div>
           </div>
@@ -131,7 +135,7 @@
 
         <div class="row">
           <!-- 1 -->
-          <div class="col-lg-4 col-sm-6 col-12 text-center">
+          <div class="col-lg-4 col-sm-6 col-12 text-center mb-4">
             <div class="card">
               <div class="ratio ratio-16x9">
                 <img src="./img/preset1.jpg" class="card-img-top" alt="..." />
@@ -142,27 +146,79 @@
                 <p class="card-text text-content">Ijo ijo biar seger</p>
               </div>
               <div class="card-footer">
-                <a href="https://www.instagram.com/p/CgKXo-kP7g7/?utm_source=ig_web_copy_link" class="btn btn-warning">View</a>
-                <a href="#" class="btn btn-secondary">Download</a>
+                <a href="https://www.instagram.com/p/CgKXo-kP7g7/?utm_source=ig_web_copy_link" target="_blank" class="btn text-white" style="background-color: #066163">View</a>
+                <a href="https://www.mediafire.com/file/0oigwcgupkvx9qx/IMG_7898.dng/file" class="btn text-white" style="background-color: #CDBE78;" target="_blank">Download</a>
               </div>
             </div>
+            
+          </div>
+
+          <!-- 2 -->
+          <div class="col-lg-4 col-sm-6 col-12 text-center mb-4">
+            <div class="card">
+              <div class="ratio ratio-16x9">
+                <img src="./img/preset1.jpg" class="card-img-top" alt="..." />
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Moody green ala ala</h5>
+                <p class="card-text text-content">Ijo ijo biar seger</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://www.instagram.com/p/CgKXo-kP7g7/?utm_source=ig_web_copy_link" target="_blank" class="btn text-white" style="background-color: #066163">View</a>
+                <a href="https://www.mediafire.com/file/0oigwcgupkvx9qx/IMG_7898.dng/file" class="btn text-white" style="background-color: #CDBE78;" target="_blank">Download</a>
+              </div>
+            </div>
+            
+          </div>
+
+          <!-- 3 -->
+          <div class="col-lg-4 col-sm-6 col-12 text-center mb-4">
+            <div class="card">
+              <div class="ratio ratio-16x9">
+                <img src="./img/preset1.jpg" class="card-img-top" alt="..." />
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Moody green ala ala</h5>
+                <p class="card-text text-content">Ijo ijo biar seger</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://www.instagram.com/p/CgKXo-kP7g7/?utm_source=ig_web_copy_link" target="_blank" class="btn text-white" style="background-color: #066163">View</a>
+                <a href="https://www.mediafire.com/file/0oigwcgupkvx9qx/IMG_7898.dng/file" class="btn text-white" style="background-color: #CDBE78;" target="_blank">Download</a>
+              </div>
+            </div>
+           
           </div>
         </div>
+        
       </div>
     </section>
     <!-- endPreset Lightroom -->
 
+    <!-- myYoutube -->
+    <div class="col-12 col-4-sm text-center mb-4 myYoutube">
+      <hr class="container">
+      <div class="container container-video text-center" id="video">
+            <h1 class=" section-header text-center">My Video</h1>
+            <iframe width="100%" height="315" style="border-radius: 10px;" src="https://www.youtube.com/embed/rNJQ7A8GGHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    
+    
+    
+
     <!-- Contact -->
     <section class="contact" id="contact">
-        <div class="container">
-            <h2 class="my-5 section-header text-center">
-                Contact Me<br />
-            </h2>
+        <div class="container pt-5">
+            <h2 class=" section-header text-center">Follow Me</h2>
             <div class="text-center">
                 <!-- instagram -->
-                <button type="button" class="btn btn-outline-secondary"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/800px-Instagram-Icon.png" alt="" width="30px" ><a class="nav-link" href="https://www.instagram.com/naufalpratam4/">Instagram</a></button>
+                <button type="button" style="--bs-btn-padding-y: .75rem; --bs-btn-padding-x: .75rem; --bs-btn-font-size: 1rem;" class="btn btn-outline-secondary"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/800px-Instagram-Icon.png" alt="" width="30px" height="30px"><a class="nav-link" href="https://www.instagram.com/naufalpratam4/">Instagram</a></button>
                 <!-- WhatsApp -->
-                <button type="button" class="btn btn-outline-secondary WhatsApp"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" alt="" width="30px" ><a class="nav-link" href="https://www.instagram.com/naufalpratam4/">WhatsApp</a></button>
+                <button type="button" style="--bs-btn-padding-y: .75rem; --bs-btn-padding-x: .75rem; --bs-btn-font-size: 1rem;" class="btn btn-outline-secondary WhatsApp"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" alt="" width="30px" height="30px" ><a class="nav-link" href="https://www.instagram.com/naufalpratam4/">WhatsApp</a></button>
+                <!-- Youtube -->
+                <button type="button" style="--bs-btn-padding-y: .75rem; --bs-btn-padding-x: .75rem; --bs-btn-font-size: 1rem;" class="btn btn-outline-secondary WhatsApp"><img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/YouTube.max-1100x1100.png" alt="" width="30px" height="30px"><a class="nav-link" href="https://www.instagram.com/naufalpratam4/">Youtube</a></button>
             </div>
             
         </div>
