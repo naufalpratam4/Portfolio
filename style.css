@@ -16,6 +16,7 @@
   color: var(--clr-dark);
   margin-top: -50px;
 }
+
 @media (min-width: 576px) {
   .main-header {
     font-size: 4rem;
@@ -30,7 +31,7 @@
 
 .text-content {
   letter-spacing: 0.025rem;
-  font-size: 0.875rem;
+  font-size: 14px;
   color: black;
 }
 
@@ -52,5 +53,9 @@
 }
 
 section {
-  scroll-margin-top: 4rem;
+  scroll-margin-top: 5rem;
+}
+
+.myYoutube {
+  padding-top: 80px;
 }
